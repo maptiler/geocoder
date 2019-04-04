@@ -1,6 +1,6 @@
 {
   "name": "@maptiler/geocoder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Geographical search via MapTiler Cloud",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base demo --mode development --hot --inline",
@@ -13,8 +13,8 @@
     "core-js": "3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
