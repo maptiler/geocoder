@@ -1,4 +1,4 @@
-# MapTiler Geocoding
+# MapTiler Geocoder
 
 JavaScript component for geographical search provided as part of [MapTiler Cloud](https://www.maptiler.com/cloud).
 
