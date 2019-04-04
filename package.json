@@ -1,12 +1,13 @@
 {
   "name": "@maptiler/geocoder",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Geographical search via MapTiler Cloud",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base demo --mode development --hot --inline",
     "build": "webpack --mode production"
   },
   "author": "MapTiler Team",
+  "main": "src/geocoder.js",
   "dependencies": {
     "autocompleter": "4.0.2",
     "core-js": "3.0.0"
