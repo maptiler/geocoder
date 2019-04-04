@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="http://localhost:8080/maptiler-geocoder.js"></script>
+    <link href="http://localhost:8080/maptiler-geocoder.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input autocomplete="off" id="search" type="text" />
+    <script>
+      var geocoder = new maptiler.Geocoder({
+        input: 'search',
+        key: '...'
+      });
+      geocoder.on('hover', function(item) {
+        console.log('Hovered over', item);
+      });
+      geocoder.on('select', function(item) {
+        console.log('Clicked', item);
+      });
+
+      // setProximity
+
+      // setLanguage
+
+      // setBounds
+
+    </script>
+  </body>
+</html>
