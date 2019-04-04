@@ -5,7 +5,7 @@ module.exports = (env, options) => {
   return {
     entry: {
       'maptiler-geocoder': [
-        './src/css/geocoder.css',
+        './css/geocoder.css',
         './src/geocoder.js'
       ]
     },
