@@ -1,6 +1,6 @@
 {
   "name": "@maptiler/geocoder",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Geographical search via MapTiler Cloud",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base demo --mode development --hot --inline",
