@@ -1,7 +1,17 @@
 {
   "name": "@maptiler/geocoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Geographical search via MapTiler Cloud",
+  "keywords": [
+    "geocoder",
+    "geocoding",
+    "maptiler",
+    "cloud",
+    "autocomplete",
+    "geojson"
+  ],
+  "license": "BSD-2-Clause",
+  "repository": "github:maptiler/geocoder",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --content-base demo --mode development --hot --inline",
     "build": "webpack --mode production"
