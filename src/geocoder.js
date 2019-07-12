@@ -64,7 +64,7 @@ export class Geocoder extends EventEmitter {
     this.input_ = input;
 
     this.input_.classList.add('maptiler-geocoder');
-    this.input_.maxLength = 20;
+    this.input_.maxLength = 60;
 
     this.autocomplete_ = autocomplete({
       input: this.input_,
