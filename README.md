@@ -9,8 +9,8 @@ JavaScript component for geographical search provided as part of [MapTiler Cloud
 ```html
 <html>
   <head>
-    <script src="https://cdn.maptiler.com/maptiler-geocoder/v1.0.0/maptiler-geocoder.js"></script>
-    <link href="https://cdn.maptiler.com/maptiler-geocoder/v1.0.0/maptiler-geocoder.css" rel="stylesheet" />
+    <script src="https://cdn.maptiler.com/maptiler-geocoder/v1.1.0/maptiler-geocoder.js"></script>
+    <link href="https://cdn.maptiler.com/maptiler-geocoder/v1.1.0/maptiler-geocoder.css" rel="stylesheet" />
   </head>
   <body>
     <input id="search" type="text" />
