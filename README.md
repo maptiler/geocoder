@@ -67,6 +67,7 @@ geocoder.geocode('Zurich')
 | options | `Object` |  | |
 | options.key | `string` | | Access key from https://cloud.maptiler.com/ |
 | [options.input] | `string` \| `HTMLInputElement` \| `null` | `null` | If no input is provided, the autocomplete will not be initiated, but the rest of the methods can still be used. Most notably [.geocode(query)](#module_maptiler.Geocoder+geocode). |
+| [options.autocompleteWaitMs] | `number` | `500` | Number of milliseconds to wait before autocompleting. At most one request will be sent within this timeframe. Useful if you want to wait for the user to finish typing. Does not have any effect if `input` is not specified. |
 | [options.language] | `string` \| `Array.<string>` | `null` | Specifies language preference e.g. `en,de`, `null` to disable. |
 | [options.bounds] | `Array.<number>` | `null` | Search only within the specified bounds `[minx, miny, maxx, maxy]`, `null` to disable. |
 | [options.proximity] | `Array.<number>` | `null` | Prefer results closer to the specified point `[lon, lat]`, `null` to disable. |

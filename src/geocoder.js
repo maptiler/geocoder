@@ -22,6 +22,7 @@ export class Geocoder extends EventEmitter {
    * @param {Object} options
    * @param {string} options.key Access key from https://cloud.maptiler.com/
    * @param {string|HTMLInputElement|null} [options.input]
+   * @param {number} [options.autocompleteWaitMs]
    * @param {string|string[]} [options.language]
    * @param {number[]} [options.bounds]
    * @param {number[]} [options.proximity]
@@ -34,6 +35,8 @@ export class Geocoder extends EventEmitter {
     if (!this.key_) {
       throw Error('No key provided.');
     }
+
+    this.autocompleteWaitMs_ = options_.autocompleteWaitMs || 500;
 
     this.input_ = null;
     if (options_.input) {
@@ -67,7 +70,7 @@ export class Geocoder extends EventEmitter {
       input: this.input_,
       emptyMsg: 'No results',
       minLength: 2,
-      debounceWaitMs: 500,
+      debounceWaitMs: this.autocompleteWaitMs_,
       className: 'maptiler-geocoder-results',
       fetch: (text, update) => {
         this.input_.classList.add('working');
