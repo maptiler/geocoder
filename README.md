@@ -42,6 +42,19 @@ geocoder.geocode('Zurich')
 
 **Note**: You can get your own keys for free at https://cloud.maptiler.com.
 
+## Setup with npm
+
+```bash
+npm install @maptiler/geocoder
+```
+
+```js
+import { Geocoder } from '@maptiler/geocoder';
+
+require('@maptiler/geocoder/css/geocoder.css'); // when using a bundler like webpack or rollup
+```
+
+
 ## API
 
 ### maptiler.Geocoder
