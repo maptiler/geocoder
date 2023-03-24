@@ -3,7 +3,7 @@
 ---
 
 **Since 2023, this repository is deprecated. We moved the development effort to
-our (MapTIler Geocoding control for MapLibre and Leaflet)[https://github.com/maptiler/maptiler-geocoding-control] project.
+our [MapTiler Geocoding control for MapLibre and Leaflet](https://github.com/maptiler/maptiler-geocoding-control) project.
 For more information also check the
 [npm.js](https://www.npmjs.com/package/@maptiler/geocoding-control) page.**
 
