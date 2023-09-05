@@ -1,4 +1,6 @@
-# MapTiler Geocoder - DEPRECATED
+# MapTiler Geocoder
+
+New version is at https://github.com/maptiler/maptiler-geocoding-control
 
 ---
 
